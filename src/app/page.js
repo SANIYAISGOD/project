@@ -1,7 +1,9 @@
-import Image from "next/image";
+import Header from "@/common/header/header";
 
 export default function Home() {
   return (
-    <div>Hello</div>
+    <div>
+      <Header />
+    </div>
   );
 }
