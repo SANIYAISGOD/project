@@ -1,9 +1,9 @@
-import Header from "@/common/header/header";
+import Navbar from "@/components/common/header/Navbar";
 
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <div className="">
+      <Navbar />
     </div>
   );
 }
